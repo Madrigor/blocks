@@ -1,0 +1,43 @@
+#top{
+    width: 800px;
+    height: 550px;
+    padding: 10px 10px 16px 10px;
+    box-sizing: content-box;
+    display: flex;
+}
+.box_img{
+    box-sizing: content-box;
+    width: 380px;
+    height: 380px;
+    display: inline-block;
+    border: 3px solid #1e1ec8;
+    border-radius: 20px;
+    padding: 10px 10px 16px 10px;
+}
+p{
+    font-size: 25px;
+    font-family: "Roboto Light", sans-serif;
+    font-weight: 700;
+}
+.cat{
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    border: 3px dashed #cc1313;
+}
+.dog{
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+}
+#second [src*=".jpg"]{
+    opacity: 0;
+}
+#first{
+    margin: 58px 3px 1px 1px;
+}
+#third .box_img{
+    width: 760px;
+    height: 120px;
+    display: block;
+}
